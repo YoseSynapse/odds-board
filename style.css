@@ -1,4 +1,4 @@
-/* THE ODDS BOARD — BOARD GOLD CINEMA. A championship broadcast graphics package:
+/* THE ODDS BOARD · BOARD GOLD CINEMA. A championship broadcast graphics package:
    gold spotlight on near-black, condensed mega-type, main-event cards, bottom-line ticker. */
 :root{
   --bg:#0b0d08;--bg-2:#0e110a;--panel:#141809;--panel-2:#1a1f0d;
@@ -236,7 +236,7 @@ footer{border-top:1px solid var(--line);background:#080906;padding:52px 0 38px}
   .rg-step{opacity:1;transform:none;transition:none}
 }
 
-/* Brand banner + mark — interactive layer (assets/banner.jpg, assets/brand-image.png) */
+/* Brand banner + mark · interactive layer (assets/banner.jpg, assets/brand-image.png) */
 .banner-strip{position:relative;overflow:hidden;background:#000;line-height:0}
 .banner-img{display:block;width:100%;height:auto;transform-origin:center;animation:bannerFloat 9s ease-in-out infinite;will-change:transform}
 .banner-chip{position:absolute;left:16px;bottom:14px;padding:6px 12px;border-radius:999px;background:rgba(0,0,0,.55);color:#fff;font-size:.72rem;line-height:1.4;letter-spacing:.18em;text-transform:uppercase}
@@ -258,7 +258,7 @@ footer{border-top:1px solid var(--line);background:#080906;padding:52px 0 38px}
 @keyframes viewIn{from{opacity:0}to{opacity:1}}
 @media (prefers-reduced-motion: reduce){.merch-img{animation:none}}
 
-/* Highlight voting — one pick per showcase, saved on this device */
+/* Highlight voting · one pick per showcase, saved on this device */
 .vote-row{display:flex;align-items:center;gap:10px;margin-top:12px}
 .vote-btn{cursor:pointer;padding:5px 16px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;opacity:.7}
 .vote-btn.on{opacity:1;background:rgba(127,127,127,.25)}
@@ -267,7 +267,7 @@ footer{border-top:1px solid var(--line);background:#080906;padding:52px 0 38px}
 
 .vote-btn[disabled]{opacity:.45;cursor:default;text-transform:none;letter-spacing:.02em;font-size:.72rem}
 
-/* Desk Log — decided moves and awards (desk-updated, never a live feed) */
+/* Desk Log · decided moves and awards (desk-updated, never a live feed) */
 .desk-log{margin-top:34px;border-top:2px solid var(--gold);padding-top:18px}
 .log-head{margin:22px 0 8px;font-family:var(--font-board);letter-spacing:.06em;text-transform:uppercase;font-size:.85rem;color:var(--gold-soft)}
 .log-filters{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
@@ -281,7 +281,7 @@ footer{border-top:1px solid var(--line);background:#080906;padding:52px 0 38px}
 .log-status.awaiting{color:var(--gold-soft)}
 .log-empty{color:var(--ink-dim);font-size:.9rem}
 
-/* The Talent Floor — its own band: full-width gold divider, a tone apart from the odds sections */
+/* The Talent Floor · its own band: full-width gold divider, a tone apart from the odds sections */
 .talent-band{background:color-mix(in srgb, var(--gold) 6%, var(--bg));border-top:3px solid var(--gold);border-bottom:1px solid var(--line-gold)}
 .talent-sub{font-family:var(--font-display);font-size:1.15rem;color:var(--gold-soft);margin:2px 0 4px}
 .talent-noodds{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-dim);margin:0 0 10px}
